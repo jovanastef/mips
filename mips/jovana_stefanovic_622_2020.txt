@@ -1,0 +1,17 @@
+Jovana Stefanovic
+
+7 samoglasnika 
+9 suglasnika         
+
+===> port B
+
+7+9 = 16
+
+16 mod 6  ===>4
+
+Iz ovoga mozemo zakljuciti da je nas zeljeni port B pin 4
+
+Kako ime ima 6, a prezime 10 slova potrebno je da se dioda pali(6ms) i gasi(10ms)
+i to se u prvoj while petlji ponavlja 6 puta. U drugoj while petlji se dioda pali(10ms)
+i gasi(6ms) i to se ponavlja 10 puta.
+Sve to se beskonacno ponavlja.
